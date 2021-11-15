@@ -81,7 +81,7 @@ TEST(TestingDivision, Division) {
 }
 
 TEST(TestingGetDenumerator0, GetDenumerator) {
-    Fraction fraction(-45, 1);
-    ASSERT_TRUE(fraction.GetDenumerator() == 1);
+    Fraction fraction(-45, 0);
+    ASSERT_TRUE(fraction.GetDenumerator() == 0);
 }
 
